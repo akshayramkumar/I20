@@ -9,6 +9,8 @@ public class CommitCafe {
         cups++;
         System.out.println(barista + " is brewing " + drink);
         System.out.println(title + " says: Enjoy your " + drink);
+        System.out.println("CoffeeBot brewed " + drink+ ". Practicing Caffeine-Driven Development (CDD)." );
+        System.out.println("[BOT CHECK] drink length = " + drink.length());
         // STUDENT_TODO_2A: Implement - add 1 to cups & print a message
         // STUDENT_TODO_2B: Add a second brew-related improvement
     }
